@@ -65,6 +65,9 @@ footer ul li a:hover {
     
 }
 .footer-bg-img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
     height: calc(100vw / 9.8);
     min-height: 10.4rem;
     background: url(./img/bg-wave.svg) no-repeat bottom center/cover;
