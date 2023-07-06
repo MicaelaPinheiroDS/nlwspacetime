@@ -49,6 +49,11 @@ h1 span {
 .paragraph-container p:not(:last-child) {
     margin-bottom: 3.2rem;
 }
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
 footer ul {
     margin: 1.6rem auto 4rem;
     list-style: none;
@@ -65,9 +70,6 @@ footer ul li a:hover {
     
 }
 .footer-bg-img{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
     height: calc(100vw / 9.8);
     min-height: 10.4rem;
     background: url(./img/bg-wave.svg) no-repeat bottom center/cover;
